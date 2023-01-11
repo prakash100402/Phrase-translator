@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="378dp"
+        android:layout_height="396dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="hello"
+            android:text="@string/hello_1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="beautiful"
+            android:text="@string/beautiful1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="noproblem"
+            android:text="@string/no_problem1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="please"
+            android:text="@string/please1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="iloveyou"
+            android:text="@string/i_love_you_31"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="sorry"
+            android:text="@string/sorry1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="thankyou"
+            android:text="@string/thank_you1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_margin="10dp"
+            android:gravity="fill"
+            android:onClick="playphrase"
+            android:tag="welcome"
+            android:text="@string/welcome1"
+            android:textAlignment="center"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="RtlCompat,TextContrastCheck" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:gravity="center"
+        android:text="@string/english_text_to_hindi_voice"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/gridlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

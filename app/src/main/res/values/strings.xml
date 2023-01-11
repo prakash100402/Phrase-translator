@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">6-Translator</string>
+    <string name="button">Button</string>
+    <string name="hello">Hello</string>
+    <string name="no_problem">No Problem</string>
+    <string name="beautiful">Beautiful</string>
+    <string name="thank_you">Thank You</string>
+    <string name="welcome">Welcome</string>
+    <string name="i_love_you_3"><![CDATA[I Love You <3]]></string>
+    <string name="sorry">Sorry :)</string>
+    <string name="hello1">Hello</string>
+    <string name="hello_1">Hello</string>
+    <string name="beautiful1">Beautiful</string>
+    <string name="no_problem1">NO Problem</string>
+    <string name="please1">Please</string>
+    <string name="i_love_you_31"><![CDATA[I LOve You <3]]></string>
+    <string name="sorry1">Sorry</string>
+    <string name="thank_you1">Thank You</string>
+    <string name="welcome1">Welcome</string>
+    <string name="english_text_to_hindi_voice">English Text To Hindi Voice.</string>
+</resources>
